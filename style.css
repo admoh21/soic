@@ -1,32 +1,9 @@
-body{
-  background-color: #727648;
-
+body {
+    background-color: green; /* اللون الرئيسي */
 }
 
-div {
-  background-color: white;
-  width: 250px;
-  height: 250px;
-}
-@media (max-width: 450px){
-  body{
-    background-color: red;
-  }
-  div {
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-  }
-}
-
-@media (max-width: 300px)
-{
-  body {
- background-color: #b3de10;
-  }
-  div {
-    background-color: blue;
-    width: 70px;
-    height: 70px;
-  }
+@media (max-width: 600px) {
+    body {
+        background-color: red; /* لون الخلفية عند تصغير حجم الشاشة */
+    }
 }
