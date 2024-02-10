@@ -2,79 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MD'Adeeb</title>
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-<!--     <link rel="stylesheet" href="style.css"> -->
     <style>
         body {
-    background: linear-gradient(to right, #845ec2 25%,#daa5ef, #815cbf,#7453b6);
+    background: linear-gradient(to top, rgb(49, 33, 33) 30%, rgb(146, 110, 110));
+    padding: 0;
+    margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
-  margin-top: 20vw;
+    margin-top: 70px;
 }
 section {
     text-align: center;
-    height: 90%;
     width: 90%;
-    /* padding: 30px; */
+}
+section p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
 }
 section img {
     border-radius: 50%;
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 20%;
 }
 section .social {
     display: flex;
     flex-direction: column;    
 }
 .social a {
-    background-color: #fbeaff;
-    /* text-align: center; */
-    color: black;
+    border: 1px white solid;
+    color: white;
     text-decoration: none;
     margin:  0.9vw 0 ;
-    padding: 3vw 0vw;
-    border-radius: 10px;
+    padding: 3vw;
+    border-radius: 40px;
     box-shadow: 0 0 5px black;
-    font-size: 3.5vw;
+    font-size: 30px;
+}
+.social a:hover {
+    background-color: white;
+    color: black;
 }
 .social i {
      float: left;
-     color: #b39c;
-     font-size: 5vw;
-     padding-left: 10px;
+     color: white;
+     font-size: 3.5vw;
+}
+.social_footer i {
+    font-size: 40px;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+.social_footer a {
+    text-decoration: none;
+    color: white;
 }
     </style>
 </head>
 <body>
     <section>
         <img src="User.jpg" alt="">
-
+        <p>
+            @ussername
+        </p>
         <p>
             i'am is Mohammed
         </p>
         <div class="social">
             <a href="#">
                 <i class="fab fa-instagram"></i>
-                instagram
+                instagram | انستقرام 
             </a>
 
             <a href="#">
                 <i class="fab fa-tiktok"></i>
-                TikTok
+                TikTok | تيك توك
             </a>
             <a href="#">
                 <i class="fab fa-telegram"></i>
-                Telegram
+                Telegram | تيليجرام
             </a>
             <a href="#">
                 <i class="fab fa-whatsapp"></i>
-                Whatsapp
+                Whatsapp | واتساب
             </a>
             <a href="#">
                 <i class="fab fa-facebook"></i>
-                Facebook
+                Fscebook | فيسبوك
+            </a>
+        </div>
+        <div class="social_footer">
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-telegram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-facebook"></i>
             </a>
         </div>
     </section>
